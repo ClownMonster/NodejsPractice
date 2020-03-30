@@ -6,6 +6,5 @@ class testclass{
         console.log('inside testclass constructor');
     }
 }
-module.exports.sum = sum;
-module.exports.my_number = my_number;
-module.exports.testclass = testclass;
+
+module.exports = {sum:sum, my_number: my_number, testclass:testclass}

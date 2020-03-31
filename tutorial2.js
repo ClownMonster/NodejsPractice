@@ -8,4 +8,6 @@ class testclass
     }
 }
 
-module.exports = {sum:sum, my_number: my_number, testclass:testclass}
+export const sum = sum;
+export const my_number = my_number;
+export const testclass = testclass;
